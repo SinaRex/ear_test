@@ -1,0 +1,29 @@
+.root {
+    -fx-font-family: "Arial Narrow";
+    -fx-background-color: linear-gradient(#2A5058, #027988, #0098cd);
+}
+
+.button {
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,1) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+#chooseText {
+    -fx-font-size: 19px;
+    -fx-font-family: "Arial Black";
+    -fx-text-fill: white;
+    -fx-fill: white;
+}
+
+#tokenText {
+    -fx-font-family: "Arial Black";
+    -fx-fill: #ffb300;
+}

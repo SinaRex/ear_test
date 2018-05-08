@@ -1,0 +1,32 @@
+.root {
+    -fx-font-family: "Helvetica";
+    -fx-background-image: url("background_sized.jpg");
+}
+
+.list-view {
+    -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.6), 50, 0.0, 3, 5);
+
+}
+
+
+.label {
+    -fx-font-size: 19px;
+    -fx-background-color: rgba(7, 50, 69, 0.3);
+    -fx-font-family: "Arial Black";
+    -fx-text-fill: white;
+    -fx-effect: innershadow( three-pass-box , rgba(0, 0, 0, 0.8), 3, 0.0 , 0 , 1 );
+
+}
+
+.button {
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,1) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
